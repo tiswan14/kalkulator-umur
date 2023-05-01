@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+:root {
+    --color-primay: rgb(34, 34, 255);
+}
+
+body {
+    height: 100vh;
+    background: blue;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background: white;
+    width: 500px;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.head-nav {
+    border-bottom: 2px solid rgb(236, 227, 227);
+    padding-bottom: 10px;
+}
+
+.head-nav h1 {
+    color: var(--color-primay);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.option {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.option-date {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+.option-date label {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-primay);
+    margin-bottom: 8px;
+}
+
+.option-date input {
+    width: 120px;
+    height: 37px;
+    font-size: 18px;
+    border: 3px solid var(--color-primay);
+    color: var(--color-primay);
+    padding-left: 8px;
+}
+
+.option-date input:focus {
+    outline: none;
+    border: 4px solid var(--color-primay);
+    
+}
+
+.btn {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background: var(--color-primay);
+    width: 130px;
+    height: 40px;
+}
+
+.btn button:hover {
+    background: rgb(0, 0, 206);
+}
+
+.showage p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-primay);
+}

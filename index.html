@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-nav">
+        <h1>Kalkulator Umur</h1>
+      </div>
+
+      <div class="option">
+        <div class="option-date">
+          <label for="date">Tanggal</label>
+          <input type="text" id="date" />
+        </div>
+        <div class="option-date">
+          <label for="month">Bulan</label>
+          <input type="text" id="month" />
+        </div>
+        <div class="option-date">
+          <label for="year">Tahun</label>
+          <input type="text" id="year" />
+        </div>
+      </div>
+
+      <div class="btn">
+        <button onclick="hitungUmur()">Hitung Umur</button>
+      </div>
+      <div class="showage">
+        <p id="hasilUmur"></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>
